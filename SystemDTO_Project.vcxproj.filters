@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{17690897-c705-4c2b-af26-524cffa98d75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baron">
+      <UniqueIdentifier>{cc243f76-77db-4093-9b80-10bf8ae255c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bariga">
+      <UniqueIdentifier>{488243aa-3384-44dd-b9eb-f75332cd3489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DTO">
+      <UniqueIdentifier>{9c2385ed-128e-45ca-b6bc-30a6ba6e11fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Customer">
+      <UniqueIdentifier>{bb372ab4-431c-4f51-928f-6b0583ace3ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Product">
+      <UniqueIdentifier>{eb5b2dd7-b1c7-4763-a25b-8030b3798aea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="Baron.cpp">
+      <Filter>Baron</Filter>
+    </ClCompile>
+    <ClCompile Include="Bariga.cpp">
+      <Filter>Bariga</Filter>
+    </ClCompile>
+    <ClCompile Include="Customer.cpp">
+      <Filter>Customer</Filter>
+    </ClCompile>
+    <ClCompile Include="Product.cpp">
+      <Filter>Product</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Baron.h">
+      <Filter>Baron</Filter>
+    </ClInclude>
+    <ClInclude Include="Bariga.h">
+      <Filter>Bariga</Filter>
+    </ClInclude>
+    <ClInclude Include="DTO.h">
+      <Filter>DTO</Filter>
+    </ClInclude>
+    <ClInclude Include="Customer.h">
+      <Filter>Customer</Filter>
+    </ClInclude>
+    <ClInclude Include="Product.h">
+      <Filter>Product</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
